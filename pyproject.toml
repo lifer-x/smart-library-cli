@@ -1,0 +1,15 @@
+[project]
+name = "smart-library-cli"
+version = "1.0.0"
+description = "A lightweight object-oriented CLI application for managing book inventories with a rich TUI."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    { name = "lifer-x" }
+]
+dependencies = [
+    "rich>=13.0.0",
+]
+
+[project.scripts]
+smart-library = "library_project.main:main"
