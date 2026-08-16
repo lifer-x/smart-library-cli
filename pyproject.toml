@@ -7,9 +7,19 @@ requires-python = ">=3.9"
 authors = [
     { name = "lifer-x" }
 ]
+keywords = ["cli", "tui", "library-management", "rich", "oop"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Database :: Front-Ends"
+]
 dependencies = [
     "rich>=13.0.0",
 ]
+
+[tool.uv]
+managed = true
 
 [project.scripts]
 smart-library = "library_project.main:main"
